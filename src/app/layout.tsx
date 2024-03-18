@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(inter.className, 'bg-zinc-900 text-zinc-100')}> 
+      <body className={cn(inter.className, 'bg-zinc-900 text-zinc-100 mb-40')}> 
       <Header/>
       {children}
       <Footer/>
